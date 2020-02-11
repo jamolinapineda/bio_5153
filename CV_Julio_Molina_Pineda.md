@@ -1,20 +1,22 @@
 # Julio Andres Molina Pineda 
+
 ------
 Adress:1221 W. Mt. Comfort Rd Apt. 301, Fayetteville, Arkanasas 72703  
  
 Phone: 479-774-3647  
 
-Email: jamolina@uark.edu 
+Email: <jamolina@uark.edu>
+
 ----
 
 ### Education 
 
 
-**2019-2024 (Expected)**
-:   **PhD, Cell and Molecular Biology**; University of Arkansas 
+**2019-2024 (Expected)**  
+**PhD, Cell and Molecular Biology**; University of Arkansas 
 
-**2015-2019** 
-: **B.S., Biology and Chemistry**, *Summa Cum Laude*; University of the Ozarks 
+**2015-2019**  
+**B.S., Biology and Chemistry**, *Summa Cum Laude*; University of the Ozarks 
 Minor: Mathematics 
 
 ### Technical and Laboratory Abilities 
@@ -29,39 +31,39 @@ Minor: Mathematics
 •	Experience with designing and performing scientific research.
 
 ### Research Experience 
- **2019-Present**
- : **Research Assistant, Dr. Jeffrey Lewis Laboratory, University of Arkansas**
-   : • Using yeast as a model organism for Parkinson's Disease, I study the role natural variation plays in wild yeast's response to alpha-synuclein toxicity. 
+**2019-Present**  
+**Research Assistant, Dr. Jeffrey Lewis Laboratory, University of Arkansas**  
+Using yeast as a model organism for Parkinson's Disease, I study the role natural variation plays in wild yeast's response to alpha-synuclein toxicity. 
    
- **June-July 2018**
-: **Summer Medical and Research Training Program (SMART), Baylor College of Medicine** 
-  : •	Worked in a project mentored by Dr. Kjersti Aagaard called “Maternal Commensal Bacteria Inhibits Intrauterine ZIKV Infection and Fetal Growth Restriction in a Mouse Model,” which involved working with RNA and DNA extractions from different types of tissues and performing and analyzing RT-qPCR data.  
+**June-July 2018**  
+**Summer Medical and Research Training Program (SMART), Baylor College of Medicine**  
+Worked in a project mentored by Dr. Kjersti Aagaard called “Maternal Commensal Bacteria Inhibits Intrauterine ZIKV Infection and Fetal Growth Restriction in a Mouse Model,” which involved working with RNA and DNA extractions from different types of tissues and performing and analyzing RT-qPCR data.  
   
- **June-July 2017**
-: **Summer Medical and Research Training Program (SMART), Baylor College of Medicine** 
-  : •	Worked in a project mentored by Dr. Fred Pereira from the Huffington Center on Aging called “Antioxidant Carbon Nanoparticle Results in Novel Auditory Response in Mice,” which involved working with mice and practicing techniques such as brain and ear isolation, dissection, q-PCR, brain signal processing, and data analysis. 
+**June-July 2017**  
+**Summer Medical and Research Training Program (SMART), Baylor College of Medicine**  
+Worked in a project mentored by Dr. Fred Pereira from the Huffington Center on Aging called “Antioxidant Carbon Nanoparticle Results in Novel Auditory Response in Mice,” which involved working with mice and practicing techniques such as brain and ear isolation, dissection, q-PCR, brain signal processing, and data analysis. 
   
-**2016-2019**
-: **Independent Research, University of the Ozarks** 
-  : •	With Dr. Sean Coleman as an advisor, I have worked in projects involving bacterial count, antibiotic resistance assays, and microbiome analysis of water, soil, toothbrush, and cow feces samples. 
+**2016-2019**  
+**Independent Research, University of the Ozarks** 
+With Dr. Sean Coleman as an advisor, I have worked in projects involving bacterial count, antibiotic resistance assays, and microbiome analysis of water, soil, toothbrush, and cow feces samples. 
   
-**December 2016**
-: **Molecular Techniques Training, Department of Animal Sciences, Univeristy of Illinois at Urbana-Champaing** 
-  : •	Performed molecular techniques such as PCR, RT-PCR, DNA purification and quantification, and primer designing and testing at the Mammalian Nutriphysiogenomics Laboratory directed by Dr. Juan J. Loor. 
+**December 2016**  
+**Molecular Techniques Training, Department of Animal Sciences, Univeristy of Illinois at Urbana-Champaing**  
+Performed molecular techniques such as PCR, RT-PCR, DNA purification and quantification, and primer designing and testing at the Mammalian Nutriphysiogenomics Laboratory directed by Dr. Juan J. Loor. 
 
 ### Professional Experience 
 
-**2016-2019**
-: **Laboratory/Teaching Assistant, University of the Ozarks** 
-  : Job consisted of preparing the laboratories for classes taught by Dr. Sean Coleman and helping students with their projects during certain lab periods. Duties included:
-    : •	Preparing different chemicals and reactants.
-      •	Setting up all the equipment necessary for each lab.
-      •	Preparing and collecting any samples or materials needed for the lab.
+**2016-2019**  
+**Laboratory/Teaching Assistant, University of the Ozarks**  
+Job consisted of preparing the laboratories for classes taught by Dr. Sean Coleman and helping students with their projects during certain lab periods. Duties included:  
+      •	Preparing different chemicals and reactants.  
+      •	Setting up all the equipment necessary for each lab.  
+      •	Preparing and collecting any samples or materials needed for the lab.  
       •	Teaching Assistant for “Virus Hunters” class, focused on isolating bacteriophages from soil. 
       
-**2016-2019**
-: **Biology and Mathematics Tutor, Student Success Center, University of the Ozarks** 
-  : •	Tutor students for different biology and mathematics classes. 
+**2016-2019**  
+**Biology and Mathematics Tutor, Student Success Center, University of the Ozarks**  
+    •	Tutor students for different biology and mathematics classes.  
     •	Being in chagrge of the "Math Lab," a drop-in mathematics tutoring session. 
     
     
