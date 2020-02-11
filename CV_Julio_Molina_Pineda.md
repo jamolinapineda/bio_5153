@@ -1,7 +1,9 @@
 # Julio Andres Molina Pineda 
 ------
-Adress:1221 W. Mt. Comfort Rd Apt. 301, Fayetteville, Arkanasas 72703 
-Phone: 479-774-3647
+Adress:1221 W. Mt. Comfort Rd Apt. 301, Fayetteville, Arkanasas 72703  
+ 
+Phone: 479-774-3647  
+
 Email: jamolina@uark.edu 
 ----
 
@@ -16,10 +18,14 @@ Email: jamolina@uark.edu
 Minor: Mathematics 
 
 ### Technical and Laboratory Abilities 
-•	Molecular techniques (PCR, RT-PCR, DNA purification and quantification, primer designing and testing, gel electrophoresis).
-•	Microbiology techniques (aseptic procedures, culturing, plating, staining, identification). 
-•	Certified Mice and Small Rodent Handling (IACUC-AALAS) (includes caring, surgery, and other techniques)
-•	Excellent in team work and personal relations.
+•	Molecular techniques (PCR, RT-PCR, DNA purification and quantification, primer designing and testing, gel electrophoresis).  
+
+•	Microbiology techniques (aseptic procedures, culturing, plating, staining, identification).  
+
+•	Certified Mice and Small Rodent Handling (IACUC-AALAS) (includes caring, surgery, and other techniques).  
+
+•	Excellent in team work and personal relations.  
+
 •	Experience with designing and performing scientific research.
 
 ### Research Experience 
@@ -60,9 +66,12 @@ Minor: Mathematics
     
     
 ## Publications: 
-•	**Julio A. Molina-Pineda**, Fernanda Hernandez Sanchez, David Thomas, and Sean Coleman. E. coli and Coliform Contamination of a Primary and Secondary use waterway in Clarksville, Arkansas. BIOS. Accepter November 2019. 
-•	Michelle L. Seymour, Abigail M. Wright, Renae Van Wyhe, **Julio Molina-Pineda**, Allyson S. Munneke, Tekese McKenzie, Lizanne G. Nilewski, Errol L.G. Samuel, James M. Tour, and Fred A. Pereira.  A Carbon-Based Nanoantioxidant Protects Against Cisplatin-Induced Ototoxicity.  In Preparation.
-•	Maxim Seferovic, Gregory Valentine, **Julio Molina-Pineda**, Melissa Suter, Rodion Gorchakov, Rebecca Berry, Stephanie Fowler, Kristy Murray, Kjersti Aagaard. The Maternal Microbiome Diminishes Occurrence of Vertical Transmission and Fetal Demise in a Murine Model of Congenital Zika Syndrome (CZS). Manuscript in Preparation. 
+•	**Julio A. Molina-Pineda**, Fernanda Hernandez Sanchez, David Thomas, and Sean Coleman. E. coli and Coliform Contamination of a Primary and Secondary use waterway in Clarksville, Arkansas. BIOS. Accepter November 2019.  
+ 
+•	Michelle L. Seymour, Abigail M. Wright, Renae Van Wyhe, **Julio Molina-Pineda**, Allyson S. Munneke, Tekese McKenzie, Lizanne G. Nilewski, Errol L.G. Samuel, James M. Tour, and Fred A. Pereira.  A Carbon-Based Nanoantioxidant Protects Against Cisplatin-Induced Ototoxicity.  In Preparation.  
+
+•	Maxim Seferovic, Gregory Valentine, **Julio Molina-Pineda**, Melissa Suter, Rodion Gorchakov, Rebecca Berry, Stephanie Fowler, Kristy Murray, Kjersti Aagaard. The Maternal Microbiome Diminishes Occurrence of Vertical Transmission and Fetal Demise in a Murine Model of Congenital Zika Syndrome (CZS). Manuscript in Preparation.  
+ 
 
 ## Presentations 
 **2018 Southwest Regional Meeting (American Chemical Society)**			                     Oral Presentation titled “Antioxidant Carbon Nanoparticle Results in Novel Auditory Response in Mice”.
@@ -90,33 +99,41 @@ E-Poster presentation titled “Antioxidant Carbon Nanoparticle Results in Novel
 
 ### Honors and Grants 
 
-• 2019 Doctoral Academy Fellowship, University of Arkansas 
-•2017 Tri-Beta Honors Society Grant for Undergraduate Research.
-•2017 Ozarks Alumni Association Grant for Advancement. 
-•Awarded the University of the Ozarks Academic Enrichment Fund grant thrice for traveling to conferences and presenting posters.
-•Full member of Tri-Beta Honors Biological Society.
-•Tri-Beta Honors Society South Central Regional President (2018-2019). 
-•Walton International Scholarship receipient for undergraduate studies in the United States.
-•Senator and Secretary of the Student Government Association at University of the Ozarks. 
-•United States President’s Award for Educational Excellence. 
+•2019 Doctoral Academy Fellowship, University of Arkansas  
+
+•2017 Tri-Beta Honors Society Grant for Undergraduate Research  
+
+•2017 Ozarks Alumni Association Grant for Advancement  
+
+•Awarded the University of the Ozarks Academic Enrichment Fund grant thrice for traveling to conferences and presenting posters  
+
+•Full member of Tri-Beta Honors Biological Society  
+
+•Tri-Beta Honors Society South Central Regional President (2018-2019)  
+
+•Walton International Scholarship receipient for undergraduate studies in the United States  
+
+•Senator and Secretary of the Student Government Association at University of the Ozarks  
+ 
+•United States President’s Award for Educational Excellence  
 
 ### References 
-Jeffrey A. Lewis, Assiatnt Professor, PhD Advisor
-University of Arkansas
-<lewisja@uark.edu>
+Jeffrey A. Lewis, Assiatnt Professor, PhD Advisor  
+University of Arkansas  
+<lewisja@uark.edu>  
 
-Sean Coleman, Professor of Biology 
-University of the Ozarks, Clarksville, AR
-<scoleman@ozarks.edu>
+Sean Coleman, Professor of Biology  
+University of the Ozarks, Clarksville, AR  
+<scoleman@ozarks.edu>  
 
-Befrika Murdianti, Assistant Professor of Chemistry 
-University of the Ozarks, Clarksville, AR 
-<bmurdianti@ozarks.edu>
+Befrika Murdianti, Assistant Professor of Chemistry  
+University of the Ozarks, Clarksville, AR  
+<bmurdianti@ozarks.edu>  
 
-Kjersi Aagaard, Principal Investigator 
-Baylor College of Medicine 
-<aagaardt@bcm.edu>
+Kjersi Aagaard, Principal Investigator  
+Baylor College of Medicine  
+<aagaardt@bcm.edu>  
 
-Fred Pereira, Principal Investigator and Director 
-Baylor College of Medicine, Houston, TX
-<fpereira@bcm.edu> 
+Fred Pereira, Principal Investigator and Director  
+Baylor College of Medicine, Houston, TX  
+<fpereira@bcm.edu>  
