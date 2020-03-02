@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#PBS -N nad4L
+#PBS -q tiny12core
+#PBS -j oe
+#PBS -m abe
+#PBS -M jamolina@uark.edu
+#PBS -o molina_pineda_assn04.8.out
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=00:00:30:00
+
+cd $PBS_O_WORKDIR
+
+module load blast/2.6.0+
+
+cd /storage/jamolina/watermelon_files/
+makeblastdb -in watermelon.fsa -dbtype nucl 
+blastn -query watermelon.fsa -db watermelon.fsa > /storage/jamolina/watermelon_files/default.out
+blastn -outfmt 0 -dust yes -word_size 9 -reward 2 -penalty -3 -gapopen 5 -gapextend 2 -query watermelon.fsa -db watermelon.fsa > /storage/jamolina/watermelon_files/somewhat.out
+blastn -outfmt 0 -dust yes -word_size 7 -reward 5 -penalty -4 -gapopen 8 -gapextend 6 -query watermelon.fsa -db watermelon.fsa > /storage/jamolina/watermelon_files/sensitive.out
+
+

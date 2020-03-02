@@ -1,0 +1,1 @@
+There does not seem to be a relation between the raw score, bit score and the size of the database. The E-value, nonetheless, increases as the size of the database increases. This relationship makes sense, since the E-value is the number of hits one can expect to find by chance and with larger databases this value logically increases. 

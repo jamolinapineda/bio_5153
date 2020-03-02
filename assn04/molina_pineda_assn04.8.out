@@ -1,0 +1,25 @@
+
+
+Building a new DB, current time: 03/02/2020 15:19:01
+New DB name:   /scrfs/storage/jamolina/watermelon_files/watermelon.fsa
+New DB title:  watermelon.fsa
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /scrfs/storage/jamolina/watermelon_files/watermelon.fsa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00739908 seconds.
+PBS Job Statistics:
+PBS Job ID: 4779815.sched
+Resource List: neednodes=1:ppn=8,nodes=1:ppn=8,walltime=00:30:00
+Resources Used: cput=00:02:14,mem=84064kb,vmem=365180kb,walltime=00:02:15
+Queue Name: tiny12core
+Program Return Code: 0
+Head Node:
+compute1102
+PBS Job Statistics:
+PBS Job ID: 4779815.sched
+Resource List: neednodes=1:ppn=8,nodes=1:ppn=8,walltime=00:30:00
+Resources Used: cput=00:02:14,mem=84064kb,vmem=365180kb,walltime=00:02:15
+Queue Name: tiny12core
+Program Return Code: 0
+Head Node: compute1102

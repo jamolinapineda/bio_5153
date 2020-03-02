@@ -1,0 +1,210 @@
+
+
+Building a new DB, current time: 03/02/2020 01:24:54
+New DB name:   /scrfs/storage/jamolina/watermelon_files/watermelon_nt/newdb
+New DB title:  newdb
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+FASTA-Reader: Ignoring invalid residues at position(s): On line 39: 1489, 1491, 1495-1496, 1499, 1503-1504
+FASTA-Reader: Ignoring invalid residues at position(s): On line 46: 1186, 1188, 1192-1193, 1196, 1200
+FASTA-Reader: Ignoring invalid residues at position(s): On line 47: 574, 576, 580-581, 584, 587-588
+FASTA-Reader: Ignoring invalid residues at position(s): On line 85: 1489, 1491, 1495-1496, 1499, 1503-1504
+FASTA-Reader: Ignoring invalid residues at position(s): On line 92: 1186, 1188, 1192-1193, 1196, 1200
+FASTA-Reader: Ignoring invalid residues at position(s): On line 93: 574, 576, 580-581, 584, 586-589
+FASTA-Reader: Ignoring invalid residues at position(s): On line 203: 1489, 1491, 1495-1496, 1499, 1503-1504
+FASTA-Reader: Ignoring invalid residues at position(s): On line 210: 1186, 1188, 1192-1193, 1196, 1200
+FASTA-Reader: Ignoring invalid residues at position(s): On line 211: 574, 576, 580-581, 584, 586-589
+FASTA-Reader: Ignoring invalid residues at position(s): On line 393: 1489, 1491, 1495-1496, 1499, 1503-1504
+FASTA-Reader: Ignoring invalid residues at position(s): On line 400: 1186, 1188, 1192-1193, 1196, 1200
+FASTA-Reader: Ignoring invalid residues at position(s): On line 401: 574, 576, 580-581, 584, 586-589
+Adding sequences from FASTA; added 228 sequences in 0.0237072 seconds.
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: newdb
+           228 sequences; 155,893 total letters
+
+
+
+Query= Citrullus_nad4L
+
+Length=303
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Citrullus_nad4                                                      560     7e-162
+  Citrullus_nad4                                                      560     7e-162
+  Citrullus_nad4                                                      560     7e-162
+  Citrullus_nad4                                                      560     7e-162
+
+
+> Citrullus_nad4
+Length=1800
+
+ Score = 560 bits (303),  Expect = 7e-162
+ Identities = 303/303 (100%), Gaps = 0/303 (0%)
+ Strand=Plus/Plus
+
+Query  1     ACGGATCCTATCAAATATTTCACATTTTCTATGATCATCTCTATTTTAGGTATTCGGGGA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1498  ACGGATCCTATCAAATATTTCACATTTTCTATGATCATCTCTATTTTAGGTATTCGGGGA  1557
+
+Query  61    ATCCTCCTTAATAGACGAAATATTCCTATTATGTCAATGCCAATTGAATCAATGTTATTA  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1558  ATCCTCCTTAATAGACGAAATATTCCTATTATGTCAATGCCAATTGAATCAATGTTATTA  1617
+
+Query  121   GCTGTGAATTCGAACTTTTTGGTATTTTCCGTTTCTTCGGATGATATGATGGGTCAATCA  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1618  GCTGTGAATTCGAACTTTTTGGTATTTTCCGTTTCTTCGGATGATATGATGGGTCAATCA  1677
+
+Query  181   TTTGCTTCATTGGTTCCAACGGTGGCAGCTGCGGAATCCGCTATTGGGTTAGCCATTTTC  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1678  TTTGCTTCATTGGTTCCAACGGTGGCAGCTGCGGAATCCGCTATTGGGTTAGCCATTTTC  1737
+
+Query  241   GTTATTACTTTCCGAGTCCGAGGGACTATTGCTGTAGAATTTATTAATAGCATTCAAGGT  300
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1738  GTTATTACTTTCCGAGTCCGAGGGACTATTGCTGTAGAATTTATTAATAGCATTCAAGGT  1797
+
+Query  301   TAA  303
+             |||
+Sbjct  1798  TAA  1800
+
+
+> Citrullus_nad4
+Length=1800
+
+ Score = 560 bits (303),  Expect = 7e-162
+ Identities = 303/303 (100%), Gaps = 0/303 (0%)
+ Strand=Plus/Plus
+
+Query  1     ACGGATCCTATCAAATATTTCACATTTTCTATGATCATCTCTATTTTAGGTATTCGGGGA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1498  ACGGATCCTATCAAATATTTCACATTTTCTATGATCATCTCTATTTTAGGTATTCGGGGA  1557
+
+Query  61    ATCCTCCTTAATAGACGAAATATTCCTATTATGTCAATGCCAATTGAATCAATGTTATTA  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1558  ATCCTCCTTAATAGACGAAATATTCCTATTATGTCAATGCCAATTGAATCAATGTTATTA  1617
+
+Query  121   GCTGTGAATTCGAACTTTTTGGTATTTTCCGTTTCTTCGGATGATATGATGGGTCAATCA  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1618  GCTGTGAATTCGAACTTTTTGGTATTTTCCGTTTCTTCGGATGATATGATGGGTCAATCA  1677
+
+Query  181   TTTGCTTCATTGGTTCCAACGGTGGCAGCTGCGGAATCCGCTATTGGGTTAGCCATTTTC  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1678  TTTGCTTCATTGGTTCCAACGGTGGCAGCTGCGGAATCCGCTATTGGGTTAGCCATTTTC  1737
+
+Query  241   GTTATTACTTTCCGAGTCCGAGGGACTATTGCTGTAGAATTTATTAATAGCATTCAAGGT  300
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1738  GTTATTACTTTCCGAGTCCGAGGGACTATTGCTGTAGAATTTATTAATAGCATTCAAGGT  1797
+
+Query  301   TAA  303
+             |||
+Sbjct  1798  TAA  1800
+
+
+> Citrullus_nad4
+Length=1800
+
+ Score = 560 bits (303),  Expect = 7e-162
+ Identities = 303/303 (100%), Gaps = 0/303 (0%)
+ Strand=Plus/Plus
+
+Query  1     ACGGATCCTATCAAATATTTCACATTTTCTATGATCATCTCTATTTTAGGTATTCGGGGA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1498  ACGGATCCTATCAAATATTTCACATTTTCTATGATCATCTCTATTTTAGGTATTCGGGGA  1557
+
+Query  61    ATCCTCCTTAATAGACGAAATATTCCTATTATGTCAATGCCAATTGAATCAATGTTATTA  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1558  ATCCTCCTTAATAGACGAAATATTCCTATTATGTCAATGCCAATTGAATCAATGTTATTA  1617
+
+Query  121   GCTGTGAATTCGAACTTTTTGGTATTTTCCGTTTCTTCGGATGATATGATGGGTCAATCA  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1618  GCTGTGAATTCGAACTTTTTGGTATTTTCCGTTTCTTCGGATGATATGATGGGTCAATCA  1677
+
+Query  181   TTTGCTTCATTGGTTCCAACGGTGGCAGCTGCGGAATCCGCTATTGGGTTAGCCATTTTC  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1678  TTTGCTTCATTGGTTCCAACGGTGGCAGCTGCGGAATCCGCTATTGGGTTAGCCATTTTC  1737
+
+Query  241   GTTATTACTTTCCGAGTCCGAGGGACTATTGCTGTAGAATTTATTAATAGCATTCAAGGT  300
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1738  GTTATTACTTTCCGAGTCCGAGGGACTATTGCTGTAGAATTTATTAATAGCATTCAAGGT  1797
+
+Query  301   TAA  303
+             |||
+Sbjct  1798  TAA  1800
+
+
+> Citrullus_nad4
+Length=1800
+
+ Score = 560 bits (303),  Expect = 7e-162
+ Identities = 303/303 (100%), Gaps = 0/303 (0%)
+ Strand=Plus/Plus
+
+Query  1     ACGGATCCTATCAAATATTTCACATTTTCTATGATCATCTCTATTTTAGGTATTCGGGGA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1498  ACGGATCCTATCAAATATTTCACATTTTCTATGATCATCTCTATTTTAGGTATTCGGGGA  1557
+
+Query  61    ATCCTCCTTAATAGACGAAATATTCCTATTATGTCAATGCCAATTGAATCAATGTTATTA  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1558  ATCCTCCTTAATAGACGAAATATTCCTATTATGTCAATGCCAATTGAATCAATGTTATTA  1617
+
+Query  121   GCTGTGAATTCGAACTTTTTGGTATTTTCCGTTTCTTCGGATGATATGATGGGTCAATCA  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1618  GCTGTGAATTCGAACTTTTTGGTATTTTCCGTTTCTTCGGATGATATGATGGGTCAATCA  1677
+
+Query  181   TTTGCTTCATTGGTTCCAACGGTGGCAGCTGCGGAATCCGCTATTGGGTTAGCCATTTTC  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1678  TTTGCTTCATTGGTTCCAACGGTGGCAGCTGCGGAATCCGCTATTGGGTTAGCCATTTTC  1737
+
+Query  241   GTTATTACTTTCCGAGTCCGAGGGACTATTGCTGTAGAATTTATTAATAGCATTCAAGGT  300
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1738  GTTATTACTTTCCGAGTCCGAGGGACTATTGCTGTAGAATTTATTAATAGCATTCAAGGT  1797
+
+Query  301   TAA  303
+             |||
+Sbjct  1798  TAA  1800
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 43476862
+
+
+  Database: newdb
+    Posted date:  Mar 2, 2020  1:24 AM
+  Number of letters in database: 155,893
+  Number of sequences in database:  228
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+PBS Job Statistics:
+PBS Job ID: 4779592.sched
+Resource List: neednodes=1:ppn=8,nodes=1:ppn=8,walltime=00:30:00
+Resources Used: cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:00
+Queue Name: tiny12core
+Program Return Code: 0
+Head Node:
+compute1144
+PBS Job Statistics:
+PBS Job ID: 4779592.sched
+Resource List: neednodes=1:ppn=8,nodes=1:ppn=8,walltime=00:30:00
+Resources Used: cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:00
+Queue Name: tiny12core
+Program Return Code: 0
+Head Node: compute1144

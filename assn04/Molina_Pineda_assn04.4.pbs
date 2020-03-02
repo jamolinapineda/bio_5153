@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#PBS -N nad4L
+#PBS -q tiny12core
+#PBS -j oe
+#PBS -m abe
+#PBS -M jamolina@uark.edu
+#PBS -o molina_pineda_assn04.4.out
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=00:00:30:00
+
+cd $PBS_O_WORKDIR
+
+module load blast/2.6.0+
+
+cd /storage/jamolina/watermelon_files/mt_genomes 
+cat *.fasta | makeblastdb -dbtype nucl -out newdb -title newdb
+blastn -query /storage/jamolina/watermelon_files/watermelon_nt/nad4L.fasta -db newdb
