@@ -34,18 +34,24 @@ with open(args.gff, 'r') as gff_file:
 			continue
 
 		else:
-			start = line[3]
-			end = line[4]
+			if (line[2] == 'GenBank CDS'):
+				print("hello world") 
+				start = line[3]
+				end = line[4]
+				print(genome.seq [start],[end])
+
+
+			else: 
+				pass
 			
 
-			print(start, end)
+			#print(start, end)
 
 			#test wheter this is a CDS feature 
 
 			#if it is CDS feature, then extract the substring/sequence
 
 			#calculate and print GC content for that substring (2 decimal places)
-
 
 #list for gene names
 gene_names = []
