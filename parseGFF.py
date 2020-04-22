@@ -34,6 +34,7 @@ def parse_gff(genome):
 				continue
 
 			else:
+				organism = line[0].replace(" ", "_")
 				feature_type = line[2]
 				start = int(line[3])
 				end = int(line[4])
@@ -45,11 +46,19 @@ def parse_gff(genome):
 				if feature_type == "CDS":
 					#extract this feature from the genome
 					feature_seq = genome[start-1:end]
-				
-					print(attributes)
+
+					# extract the gene name
+					match = re.search("Gene\s+(\S+)\s+", attributes)
+					gene_name = match.group(1)
+
+					# print FASTA format
+					print(">" + organism + "_" + gene_name)
 					print(feature_seq)
-					feature_GC = gc(feature_seq)
-					print(round(feature_GC,2)) 
+				
+					# print(attributes)
+					# print(feature_seq)
+					# feature_GC = gc(feature_seq)
+					# print(round(feature_GC,2)) 
 
 def gc(sequence): 
 	#calculate and print the GC content for the substring (2 decimal)
@@ -81,7 +90,7 @@ if __name__ == "__main__":
 
 			
 #list for gene names
-gene_names = []
+#gene_names = []
 
 
 
