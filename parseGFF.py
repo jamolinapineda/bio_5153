@@ -2,7 +2,9 @@
 
 import csv
 import argparse
+import re 
 from Bio import SeqIO 
+from Bio.Seq import Seq
 
 
 def get_args():
@@ -49,18 +51,20 @@ def parse_gff(genome):
 
 					#reverse complement feature_seq if necessary 
 					if strand == '-':
-						<INSERT CODE>
+						reverse_complement = Seq(feature_seq).reverse_complement()
 
 					# extract the gene name
 					match = re.search("Gene\s+(\S+)\s+", attributes)
 					gene_name = match.group(1)
 
 					#extract the exon number 
-					<insert code>
-
+					match2 = re.search("exon\s+(1-9)\s+", attributes)
+					exon_number = match2.group(1)
+					
 					# dictionary called cds where key = gene name, value = another dictionary(key=exon number, value = exon sequence)
-					<INSERT CODE>
-
+					dic_1 = {exon_number:feature_seq}
+					cds = {gene_name:dic_1}
+					
 					# print FASTA format
 					print(">" + organism + "_" + gene_name)
 					print(feature_seq)
