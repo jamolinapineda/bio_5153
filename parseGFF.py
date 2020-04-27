@@ -5,6 +5,7 @@ import argparse
 import re 
 from Bio import SeqIO 
 from Bio.Seq import Seq
+from collections import defaultdict
 
 
 def get_args():
@@ -24,6 +25,7 @@ def parse_fasta():
 	return SeqIO.read(args.fasta, 'fasta')
 
 def parse_gff(genome):
+	genes_with_introns = defaultdict(dict)
 	# read GFF file, line by line
 	with open(args.gff, 'r') as gff_file: 
 
@@ -45,34 +47,47 @@ def parse_gff(genome):
 				
 				#test wheter this is a CDS feature 
 				#if it is CDS feature, then extract the substring/sequence
-				if feature_type == "CDS":
+				if feature_type == "CDS" or feature_type == 'tRNA':
 					#extract this feature from the genome
 					feature_seq = genome[start-1:end]
 
 					#reverse complement feature_seq if necessary 
 					if strand == '-':
-						reverse_complement = Seq(feature_seq).reverse_complement()
+						feature_seq = revcomp(feature_seq)
 
 					# extract the gene name
-					match = re.search("Gene\s+(\S+)\s+", attributes)
-					gene_name = match.group(1)
+					a = re.search("Gene\s+(\S+)\s+", attributes)
+					gene_name = a.group(1)
 
 					#extract the exon number 
-					match2 = re.search("exon\s+(1-9)\s+", attributes)
-					exon_number = match2.group(1)
+					b = re.search("exon\s+(\d+)", attributes)
+
+					#test wheter there are multiple exons         
+					if b:
+						exon_number = b.group(1)
+						#print(gene_name, exon_number)
+
+						# dictionary called genes_with_introns where key = gene name, value = another dictionary(key=exon number, value = exon sequence)
+						#genes_with_introns[gene_name] = len(feature_seq)
+						genes_with_introns[gene_name][exon_number] = feature_seq
 					
-					# dictionary called cds where key = gene name, value = another dictionary(key=exon number, value = exon sequence)
-					dic_1 = {exon_number:feature_seq}
-					cds = {gene_name:dic_1}
-					
-					# print FASTA format
-					print(">" + organism + "_" + gene_name)
-					print(feature_seq)
-				
-					# print(attributes)
-					# print(feature_seq)
-					# feature_GC = gc(feature_seq)
-					# print(round(feature_GC,2)) 
+					#single intronless genes evaluated to false and end up here
+					#print this now is FASTA format, no need to store
+					else:
+						# print FASTA format
+						print(">" + organism + "_" + gene_name)
+						print(feature_seq)
+
+			
+	#loop over genes_with_introns dictionary and print the CDS sequences
+	#start by looping over the genes (key = gene name, value = dictionary of exons)
+	for gene_id,whatever in genes_with_introns.items():
+		print(">" + organism + '_' + gene_id)
+		#now loop over all of the exons in this gene (key = exon number, value = exon sequence)
+		for exon_num, exon_seq in sorted(genes_with_introns[gene_id].items()):
+			#print(exon_num, exon_seq)
+			print(exon_seq, end = '')
+		print()
 
 def gc(sequence): 
 	#calculate and print the GC content for the substring (2 decimal)
@@ -84,6 +99,9 @@ def gc(sequence):
 def codon2aa(codon):
 	codon_dict = {'AAA':'K', 'AAC':'N', 'AAG':'K', 'AAT':'N', 'ACA':'T', 'ACC':'T', 'ACG':'T', 'ACT':'T', 'AGA':'R', 'AGC':'S', 'AGG':'R', 'AGT':'S', 'ATA':'I', 'ATC':'I', 'ATG':'M', 'ATT':'I', 'CAA':'Q', 'CAC':'H', 'CAG':'Q', 'CAT':'H', 'CCA':'P', 'CCC':'P', 'CCG':'P', 'CCT':'P', 'CGA':'R', 'CGC':'R', 'CGG':'R', 'CGT':'R', 'CTA':'L', 'CTC':'L', 'CTG':'L', 'CTT':'L', 'GAA':'E', 'GAC':'D', 'GAG':'E', 'GAT':'D', 'GCA':'A', 'GCC':'A', 'GCG':'A', 'GCT':'A', 'GGA':'G', 'GGC':'G', 'GGG':'G', 'GGT':'G', 'GTA':'V', 'GTC':'V', 'GTG':'V', 'GTT':'V', 'TAA':'O', 'TAC':'Y', 'TAG':'O', 'TAT':'Y', 'TCA':'S', 'TCC':'S', 'TCG':'S', 'TCT':'S', 'TGA':'O', 'TGC':'C', 'TGG':'W', 'TGT':'C', 'TTA':'L', 'TTC':'F', 'TTG':'L', 'TTT':'F',}
 	return(codon_dict.get(codon, '-'))
+
+def revcomp(seq)
+	return seq.reverse_complement()
 
 def main(): 
 	genome_sequence = parse_fasta()
